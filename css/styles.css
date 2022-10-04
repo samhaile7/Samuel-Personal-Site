@@ -1,3 +1,155 @@
 body {
-  background-color: blue;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  margin: 55px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.7rem;
+  color: #66BFBF;
+  line-height: 1;
+
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-weight: bold;
+  color: #11999E;
+}
+
+p {
+  line-height: 2;
+}
+a {
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.top_container {
+  background-color: #E7F6F2;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+  background-color: #EDf3f1;
+}
+
+.bottom-container {
+  color: #11999E;
+  margin-top: 50px;
+  background-color: #A5C9CA;
+  padding-top: 60px;
+
+}
+
+.intro {
+  width:59%;
+  margin: 40px auto;
+  line-height: 2;
+}
+
+
+.bottom_cloud {
+  position: absolute;
+  left: 300px;
+  top: 250px;
+}
+
+.top_cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.left {
+  text-align: left;
+}
+
+.game_screenshot {
+  width: 300px;
+  height: auto;
+  margin: 0 auto 0 auto;
+}
+
+.image {
+    width: 10%;
+    height: auto;
+    margin: 20px auto 20px auto;
+  }
+
+  .degree {
+      width: 20%;
+      height: auto;
+      margin-right: 30px;
+
+      float: left;
+    }
+
+.list {
+  list-style: none;
+
+}
+
+.skill-row {
+  margin: 0 auto 0 auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+
+
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.space {
+  margin: 10px 20px;
+}
+
+.profile-pic {
+  width: 13%;
+  height: auto;
+  border-radius: 100%;
+  margin: 20px auto 20px auto;
+
+}
+.thick {
+  font-weight: bolder;
+}
+hr {
+
+  border-style: dotted none none;
+  border-width: 7px;
+  border-color: #A5C9CA;
+  width: 20%;
+  margin: 100px auto;
 }
