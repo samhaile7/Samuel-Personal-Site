@@ -51,12 +51,15 @@ a {
 
 .bottom-container {
   color: #11999E;
-  margin-top: 50px;
+  margin-top: 0;
   background-color: #A5C9CA;
   padding-top: 60px;
 
 }
-
+.contact-me {
+  background-color: #EDf3f1;
+  padding-bottom: 20px;
+}
 .intro {
   width:59%;
   margin: 40px auto;
@@ -66,13 +69,15 @@ a {
 
 .bottom_cloud {
   position: absolute;
-  left: 300px;
+  left: 100px;
   top: 250px;
+  width: 10%;
+  height: auto;
 }
 
 .top_cloud {
   position: absolute;
-  right: 250px;
+  right: 100px;
   top: 50px;
 }
 
@@ -151,5 +156,9 @@ hr {
   border-width: 7px;
   border-color: #A5C9CA;
   width: 20%;
-  margin: 100px auto;
+  margin: 90px auto;
+}
+
+.last-hr{
+  margin: 90px auto 20px auto;
 }
