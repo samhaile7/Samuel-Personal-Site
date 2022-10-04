@@ -6,7 +6,7 @@ body {
 }
 
 h1 {
-  margin: 55px auto 0 auto;
+  margin: 30px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 5.7rem;
   color: #66BFBF;
@@ -41,7 +41,7 @@ a {
 .top_container {
   background-color: #E7F6F2;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .middle-container {
