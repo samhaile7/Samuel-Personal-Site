@@ -95,21 +95,32 @@ a {
 }
 
 .degree {
-  width: 20%;
+  width: 30%;
   height: auto;
   margin-right: 30px;
-  float: left;
+  margin-bottom: 30px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .list {
   list-style: none;
+  text-align: center;
+  line-height: 200%;
+  margin-bottom: 30px;
+
 }
 
 .skill-row {
   margin: 0 auto 0 auto;
+
   width: 50%;
-  text-align: left;
+  text-align: center;
   line-height: 2;
+}
+
+.float_left{
+  float: left;
 }
 
 .btn {
@@ -150,8 +161,4 @@ hr {
   border-color: #A5C9CA;
   width: 20%;
   margin: 90px auto;
-}
-
-.last-hr {
-  margin: 90px auto 20px auto;
 }
